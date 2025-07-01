@@ -4,9 +4,15 @@ $("button").click(function(){
     $("#coin").fadeOut(500);
     
     $("#coin").fadeIn(500);
+    if(Window.innerwidth>=1024){
     $("#shadow").animate({width:'-20vw'}, 500);
     $("#shadow").animate({width:'7vw'}, 500);
-
+    }
+    else if (Window.innerWidth>=412 &&Window.innerWidth <=1023){
+    $("#shadow").animate({width:'-20vw'}, 500);
+    $("#shadow").animate({width:'20vw'}, 500);
+    }
+    
     if(num===0){
         
         $("#coin").attr("src","./resources/heads.svg");
@@ -26,8 +32,14 @@ $("#coin").click(function(){
     console.log(num);
     $("#coin").fadeOut(500);
     $("#coin").fadeIn(500);
+    if(Window.innerwidth>=1024){
     $("#shadow").animate({width:'-20vw'}, 500);
     $("#shadow").animate({width:'7vw'}, 500);
+    }
+    else if (Window.innerWidth>=412 &&Window.innerWidth <=1023){
+    $("#shadow").animate({width:'-20vw'}, 500);
+    $("#shadow").animate({width:'20vw'}, 500);
+    }
     if(num===0){
         
         $("#coin").attr("src","./resources/heads.svg");
