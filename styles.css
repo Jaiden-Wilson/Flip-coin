@@ -55,6 +55,7 @@ button{
     #shadow{
     position: absolute;
     top:50%;
+    width: 115px;
 }
 
 #result{
