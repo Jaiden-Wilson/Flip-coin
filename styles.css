@@ -27,16 +27,17 @@
     }
      #shadow{
     position: absolute;
-    top:50%;
+    top:45%;
+    
 }
 
 #result{
     position:absolute;
-    top:60%;
+    top:55%;
 }
 button{
     position:absolute;
-    top:70%;
+    top:65%;
     width:125px;
     height:50px;
     background-color: rgb(73, 136, 245);
