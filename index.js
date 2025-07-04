@@ -5,8 +5,8 @@ $("button").click(function(){
     
     $("#coin").fadeIn(500);
     
-    $("#shadow").animate({width:'-20vw'}, 500);
-    $("#shadow").animate({width:'7vw'}, 500);
+    $("#shadow").animate({opacity:0}, 500);
+    $("#shadow").animate({opacity: 1}, 500);
     
     
     
@@ -30,8 +30,8 @@ $("#coin").click(function(){
     $("#coin").fadeOut(500);
     $("#coin").fadeIn(500);
    
-    $("#shadow").animate({width:'-20vw'}, 500);
-    $("#shadow").animate({width:'7vw'}, 500);
+    $("#shadow").animate({opacity:0}, 500);
+    $("#shadow").animate({opacity:1}, 500);;
     
    
    
