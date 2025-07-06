@@ -76,3 +76,24 @@ button{
     border-color: rgb(73, 136, 245);
 }
 }
+h1{
+    position: relative;
+    top:45px;
+    font-family:'Inter';
+    font-weight:800;
+    font-size: 40px;
+    text-shadow: 2px 5px 0 black;
+}
+p{
+    position: relative;
+    top:60px;
+    font-family:'Inter';
+    font-weight:800;
+    
+
+}
+
+#coin{
+    position: absolute;
+    top: 30%;
+}
