@@ -12,7 +12,7 @@
     }
     #shadow{
     position: absolute;
-    top: 60%;
+    top: 63%;
 }
 #result{
     position:absolute;
@@ -43,7 +43,7 @@ button{
     }
      #shadow{
     position: absolute;
-    top: 60%;
+    top: 55%;
 }
 #result{
     position:absolute;
@@ -114,4 +114,36 @@ p{
 #coin{
     position: absolute;
     top: 30%;
+}
+/* Alternate classes*/
+.headingTwo{
+    position:relative;
+    top:22.5px;
+
+}
+.pTwo{
+    position: relative;
+    top:37.5px;
+    font-family:'Inter';
+    font-weight:800;
+    
+
+}
+.coinTwo{
+    position:absolute;
+    top:20%;
+    height:85px;
+    width:85px;
+}
+.shadowTwo{
+position:absolute;
+top:62%
+}
+.resultTwo{
+    position:absolute;
+    top:70%;
+}
+.buttonTwo{
+    position:absolute;
+    top:80%;
 }
