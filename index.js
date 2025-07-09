@@ -49,7 +49,7 @@ $("#coin").click(function(){
     }
 });
    function handleOrientationChange() {
-       if (window.matchMedia("(orientation: landscape)").matches&&document.innerwidth) {
+       if (window.matchMedia("(orientation: landscape)").matches) {
            // Landscape detected, apply adjustments
            $("h1").addClass("headingTwo");
            $("p").addClass("pTwo");
