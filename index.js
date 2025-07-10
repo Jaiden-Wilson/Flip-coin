@@ -1,4 +1,5 @@
 $("button").click(function(){
+    console.log(window.innerWidth);
     var num=Math.floor(Math.random()*2);
     console.log(num);
     $("#coin").fadeOut(500);
@@ -49,11 +50,11 @@ $("#coin").click(function(){
     }
 });
    function handleOrientationChange() {
-       if (window.matchMedia("(orientation: landscape)").matches) {
+       if (window.matchMedia("(orientation: landscape)").matches&&window.innerWidth<1350) {
            // Landscape detected, apply adjustments
            $("h1").addClass("headingTwo");
            $("p").addClass("pTwo");
-           $("#coin").addClass("coinTwo");
+           $("#coin").addClass("coinTwo");  
            $("#shadow").addClass("shadowTwo");
            $("#result").addClass("resultTwo");
            $("button").addClass("buttonTwo");
