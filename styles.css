@@ -28,7 +28,10 @@ button{
     border-radius: 10%;
     border-color: rgb(73, 136, 245);
 }
-
+ #coin{
+    width:125px;
+    height:125px;
+ }
 }
 @media(min-width:1024px) and ( max-width:1349px){
     .background{
