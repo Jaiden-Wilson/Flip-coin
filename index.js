@@ -1,6 +1,6 @@
 $("button").click(function(){
-    console.log(document.innerWidth);
     var num=Math.floor(Math.random()*2);
+    
     console.log(num);
     $("#coin").fadeOut(500);
     
@@ -49,6 +49,22 @@ $("#coin").click(function(){
 
     }
 });
-   
+   if(window.innerWidth>1350){
+    $("#coin").removeClass("coinTwo");
+   }
 
-   
+   function handleOrientationChange() {
+       if (window.matchMedia("(orientation: landscape)").matches&&window.innerWidth<1350) {
+           // Landscape detected, apply adjustments
+           
+           $("#coin").addClass("coinTwo");  
+          
+       } else {
+           // Portrait detected, remove adjustments
+          
+           $("#coin").removeClass("coinTwo");
+           
+       }
+   }
+   window.addEventListener("change", handleOrientationChange);
+   handleOrientationChange();
