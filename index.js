@@ -50,4 +50,9 @@ $("#coin").click(function(){
     }
 });
   
- 
+ if($(".background").height<window.innerHeight){
+    $("#coin").addClass("altCoin");
+ }
+ else{
+     $("#coin").removeClass("altCoin");
+ }

@@ -30,6 +30,10 @@ p{
     top: 20%;
     
 }
+.altCoin{
+    height:85px;
+    width:85px;
+}
 #shadow{
     position: relative;
     top:30%;
