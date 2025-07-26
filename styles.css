@@ -57,17 +57,11 @@ button{
 }
  
 @media screen and(orientation:landscape)and(max-width:1000px){
-        #coin{
-            width: 85px;
-            height:85px;
+        .background{
+            padding-bottom:15%;
         }
 }
-@media screen and(orientation:landscape)and(min-width:1001px){
-        #coin{
-            width: 125px;
-            height:125px;
-        }
-}
+
 
 
 
