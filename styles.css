@@ -58,7 +58,7 @@ button{
  
 @media screen and(orientation:landscape)and(max-width:1000px){
         .background{
-            padding-bottom:15%;
+            height: 130vh;
         }
 }
 
